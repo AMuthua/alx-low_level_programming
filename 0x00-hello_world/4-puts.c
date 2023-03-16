@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - this is the main entry point of the C code
- * return 0 - indicates a program is successful
+ * main - main entry point of the code
+ * Return: 0  indicates a program is successful
 */
 
 int main(void)
