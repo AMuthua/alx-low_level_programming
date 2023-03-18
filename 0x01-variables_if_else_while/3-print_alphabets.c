@@ -6,16 +6,15 @@
  */
 int main(void)
 {
-	int i = 97;
-	int j = 65;
+	char c;
 
-	while (i <= 122)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(i);
+		putchar(c);
 	}
-	while (j <= 90)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		putchar(j);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
