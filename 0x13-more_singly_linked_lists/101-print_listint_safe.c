@@ -14,7 +14,7 @@ void free_listp(listp_t **head)
 
 	if (head != NULL)
 	{
-		x = *head;
+		y = *head;
 		while ((x = y) != NULL)
 		{
 			y = y->next;
