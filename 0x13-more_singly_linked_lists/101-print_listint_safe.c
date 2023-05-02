@@ -42,7 +42,7 @@ size_t print_listint_safe(const listint_t *head)
 		b = malloc(sizeof(listp_t));
 
 		if (b == NULL)
-			exit (98);
+			exit(98);
 
 		b->p = (void *)head;
 		b->next = a;
