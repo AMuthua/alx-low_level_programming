@@ -2,12 +2,11 @@
 
 /**
  * read_textfile - reads a text file and prnts the letters
- * @filename - filename.
+ * @filename: filename.
  * @letters: numbers of letters printed.
  *
  * Return: numbers of letters printed. It fails, return 0.
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
